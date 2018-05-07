@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main.principal{
+  /*border:1px solid red;*/
+}
+header.cabecalho{
+  height:65px;
+  border:1px solid #000;
+  box-shadow:0 2px 5px rgba(0,0,0,.5);
+}
+div.conteudo{
+  border:1px solid red;
+}
+div.slide{
+  color:#fff;
+  background-image: url("../_img/1.jpg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:350px;
+}
+div.op-menu{
+  background-color: rgb(61, 71, 136);
+  color:#fff;
+  height:50px;
+  border:1px solid #fff;
+  font-size:90%;
+}
+.nav-link{
+  /*border:1px solid #000;*/
+}
+.cat:hover .cat2{
+  display:block;
+  transition:10s;
+}
+header.row{
+  box-shadow:0 .1px 5px #000;
+}
+.navbar{
+  /*border:1px solid blue;*/
+}
+/*.buscar{*/
+  /*width:40%;*/
+  /*background-color:red;*/
+/*}*/
+/*.inputBuscar{*/
+  /*background-color:#000;*/
+/*}*/
+.carrinho{
+  margin-right:10px;
+}
+.login{
+  border-radius:3px;
+  margin-right:5px;
+  border:1px solid #000;
+}
+.cadastro{
+  border-radius:3px;
+  background-color:rgb(223, 79, 79);
+  border:1px solid rgb(223, 79, 79);
+  color:#fff;
+}
+.cadastro:hover{
+  background-color:rgb(138, 70, 70);
+  border:1px solid rgb(138, 70, 70);
+}
+.form-inline{
+  background-color:#000;
+}
+/*.teste{*/
+  /*background-color:red;*/
+/*}*/
