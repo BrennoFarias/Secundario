@@ -1,3 +1,6 @@
+.navi{
+  /*border:1px solid #000;*/
+}
 *{
   padding: 0;
   margin: 0;
@@ -7,27 +10,16 @@ main.principal{
   /*border:1px solid red;*/
 }
 header.cabecalho{
-  height:65px;
-  border:1px solid #000;
-  box-shadow:0 2px 5px rgba(0,0,0,.5);
+  /*border:1px solid #000;*/
+  box-shadow:0 .1px 5px #000;
 }
+/*header.row{
+
+}*/
 div.conteudo{
   border:1px solid red;
 }
-div.slide{
-  color:#fff;
-  background-image: url("../_img/1.jpg");
-  background-repeat:no-repeat;
-  background-size:contain;
-  height:350px;
-}
-div.op-menu{
-  background-color: rgb(61, 71, 136);
-  color:#fff;
-  height:50px;
-  border:1px solid #fff;
-  font-size:90%;
-}
+
 .nav-link{
   /*border:1px solid #000;*/
 }
@@ -35,8 +27,12 @@ div.op-menu{
   display:block;
   transition:10s;
 }
-header.row{
-  box-shadow:0 .1px 5px #000;
+.cat2{
+  background-color:#000;
+}
+.logo{
+  width:15%;
+  /*background-color:#000;*/
 }
 .navbar{
   /*border:1px solid blue;*/
@@ -49,15 +45,15 @@ header.row{
   /*background-color:#000;*/
 /*}*/
 .carrinho{
-  margin-right:10px;
+  /*margin-right:10px;*/
 }
 .login{
-  border-radius:3px;
-  margin-right:5px;
+  /*margin-right:5px;*/
+  background-color:#fff;
   border:1px solid #000;
 }
 .cadastro{
-  border-radius:3px;
+  /*border-radius:3px;*/
   background-color:rgb(223, 79, 79);
   border:1px solid rgb(223, 79, 79);
   color:#fff;
@@ -66,9 +62,29 @@ header.row{
   background-color:rgb(138, 70, 70);
   border:1px solid rgb(138, 70, 70);
 }
-.form-inline{
+
+/*.form-inline{
   background-color:#000;
-}
+  width:100%;
+}*/
 /*.teste{*/
   /*background-color:red;*/
 /*}*/
+
+div.slide{
+  color:#fff;
+  /*border:1px solid red;*/
+  background-image: url("../_img/2.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+  height:550px;
+  margin-top:2px;
+}
+.prom{
+  border-bottom:1px solid rgb(108, 108, 108);
+  width:100%;
+}
+.prod{
+  border:1px solid #000;
+  height:300px;
+}
