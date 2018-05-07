@@ -88,3 +88,6 @@ div.slide{
   border:1px solid #000;
   height:300px;
 }
+.desc{
+  border:1px solid blue;
+}
