@@ -17,7 +17,7 @@ header.cabecalho{
 
 }*/
 div.conteudo{
-  border:1px solid red;
+  /*border:1px solid red;*/
 }
 
 .nav-link{
@@ -90,4 +90,11 @@ div.slide{
 }
 .desc{
   border:1px solid blue;
+}
+.card{
+   width:200px;
+
+}
+.titulo{
+  color:rgb(120, 120, 120);
 }
