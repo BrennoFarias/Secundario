@@ -18,7 +18,7 @@
 
     <main class="principal">
       <header class="cabecalho">
-        <nav class="navbar justify-content-arround">
+        <nav class="navbar">
             <a href="#" class="nav-item logo">
                 <img src="_img/logo.jpg" class="img-fluid"/>
             </a>
@@ -46,12 +46,13 @@
             <div class="nav-item">
               <a href="#" class="carrinho"><i class="fas fa-shopping-cart"></i></a>
             </div>
-            <div class="nav-item">
+            <div class="nav-item float-rigth">
               <button href="#" class="btn btn-outline-dark">Fazer Login</button>
               <button href="#" class="btn cadastro">Cadastre-se</button>
             </div>
         </nav>
       </header>
+
       <div class="container-fluid">
         <div class="row">
           <div class="col slide">
@@ -59,32 +60,189 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid">
+
+      <div class="container-fluid conteudo">
+
+        <h4 class="prom titulo">Promoção</h4>
         <div class="row">
           <div class="col">
-            <h4 class="prom">Promoção</h4>
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col prod">
-              Produto
+
+        <h4 class="prom titulo">Mais vendidos</h4>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
             </div>
-            <div class="col prod">
-              Produto
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
             </div>
-            <div class="col prod">
-              Produto
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
             </div>
-            <div class="col prod">
-              Produto
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 class="prom titulo">Compre agora</h4>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="_img/frango.jpg" class="card-img-top" width="50"/>
+              <div class="card-body">
+                <h4 class="card-title">Frango</h4>
+                <p class="card-text">
+
+                </p>
+                <h6 class="card-subtitle text-muted">R$ 10.00</h6>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
-
+      Rodapé
     </footer>
 
 
